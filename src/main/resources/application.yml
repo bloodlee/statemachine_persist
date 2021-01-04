@@ -1,0 +1,27 @@
+logging:
+  level:
+    # root: DEBUG
+    root: INFO
+
+security:
+  basic:
+    enabled: false
+
+#spring:
+#  data:
+#    jpa:
+#      repositories:
+#        enabled: false
+#    redis:
+#      repositories:
+#        enabled: false
+#    mongo:
+#      repositories:
+#        enabled: true
+
+spring:
+  data:
+    mongodb:
+      database: sm_persist_test
+      host: localhost
+      port: 27017
